@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-9"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="66Nigdr0FPwH99c9BQcf+Q==" exportKeySalt="1edfa291-3373-4221-a19b-5bbcfc8dcab2" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="KhDD9451/HbPoKzMbN4xwA==" exportKeySalt="b644d3b1-3cdf-4fe0-9043-0b5183f4f857" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTable">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FileDecSep" type="java.lang.String">null</Field>
@@ -14,13 +14,13 @@
 	<Field name="FileSepField" type="java.lang.String"><![CDATA[\u0009]]></Field>
 	<Field name="FileSepMap" type="java.lang.String">null</Field>
 	<Field name="FileSepRow" type="java.lang.String"><![CDATA[\u000D\u000A]]></Field>
-	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2025-10-14 23:32:57.0]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2025-10-23 23:32:14.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[a3a0bfe6-ea55-4118-80df-1105939cf826]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9be6c9bb-8c2c-4c5f-8659-66cd7af172db]]></Field>
 	<Field name="HiveBuckets" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="HiveLocation" type="java.lang.String">null</Field>
 	<Field name="HiveRowFormat" type="java.lang.String">null</Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
 	<Field name="IndErrDel" type="java.lang.String">null</Field>
 	<Field name="IndFilePosAuto" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndHiveManaged" type="java.lang.String">null</Field>
@@ -29,23 +29,23 @@
 	<Field name="IndShow" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndWs" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="InputFormat" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IScBaseTable" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IScOrigTable" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IScTable" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ISubModel" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
-	<Field name="ITable" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
+	<Field name="ITable" type="com.sunopsis.sql.DbInt"><![CDATA[11]]></Field>
 	<Field name="ITableFormatType" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITxtWsdl" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="JrnOrder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2025-10-24 01:52:36.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2025-10-23 23:32:14.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="OlapType" type="java.lang.String">null</Field>
 	<Field name="OutputFormat" type="java.lang.String">null</Field>
 	<Field name="PartitionMeth" type="java.lang.String">null</Field>
-	<Field name="ResName" type="java.lang.String"><![CDATA[targ]]></Field>
+	<Field name="ResName" type="java.lang.String"><![CDATA[TEST123]]></Field>
 	<Field name="RCount" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="SchemaFile" type="java.lang.String">null</Field>
 	<Field name="ScOrigTableTag" type="java.lang.String">null</Field>
@@ -54,12 +54,12 @@
 	<Field name="StorageHandler" type="java.lang.String">null</Field>
 	<Field name="StorageProp" type="java.lang.String">null</Field>
 	<Field name="SubPartitionMeth" type="java.lang.String">null</Field>
-	<Field name="TableAlias" type="java.lang.String"><![CDATA[TAR]]></Field>
-	<Field name="TableName" type="java.lang.String"><![CDATA[targ]]></Field>
+	<Field name="TableAlias" type="java.lang.String"><![CDATA[TES]]></Field>
+	<Field name="TableName" type="java.lang.String"><![CDATA[TEST123]]></Field>
 	<Field name="TableProp" type="java.lang.String">null</Field>
 	<Field name="TableType" type="java.lang.String"><![CDATA[T]]></Field>
-	<Field name="WsEntityName" type="java.lang.String"><![CDATA[Targ]]></Field>
-	<Field name="WsName" type="java.lang.String"><![CDATA[WSTarg]]></Field>
+	<Field name="WsEntityName" type="java.lang.String"><![CDATA[Test123]]></Field>
+	<Field name="WsName" type="java.lang.String"><![CDATA[WSTest123]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SUBMODEL.1.2]]></Field>
