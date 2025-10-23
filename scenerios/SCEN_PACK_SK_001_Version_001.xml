@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-9"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="u/KrMJt9X5ykmtDF49prWg==" exportKeySalt="a2ea2a87-2928-46e9-9f41-d2dd8ca91338" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="X0D/dfxWCQQfm7kFkCHa4w==" exportKeySalt="1f06130c-2187-4215-8fc3-00363cd0a80c" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpScen">
 		<Field name="CecSessBehavior" type="java.lang.String">null</Field>
 	<Field name="CecSessPollIntv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ExtVersion" type="java.lang.String">null</Field>
-	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2025-10-23 12:04:49.0]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2025-10-23 12:04:50.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[4e7df281-58a5-44f7-b54a-d1baae5740af]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[6d7833e0-873b-4302-a839-d820889b1771]]></Field>
 	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
 	<Field name="IndPromptParam" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
 	<Field name="IsMaterialized" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IPackage" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="IPackage" type="com.sunopsis.sql.DbInt"><![CDATA[31]]></Field>
 	<Field name="IPop" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IScenFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -27,87 +27,26 @@
 	<Field name="RepGuid" type="java.lang.String">null</Field>
 	<Field name="RepVersion" type="java.lang.String">null</Field>
 	<Field name="RestartType" type="java.lang.String">null</Field>
-	<Field name="ScenName" type="java.lang.String"><![CDATA[PACK_1_TEST]]></Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
-	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[18]]></Field>
+	<Field name="ScenName" type="java.lang.String"><![CDATA[PACK_SK_001]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[22]]></Field>
+	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
 	<Field name="ScenVersion" type="java.lang.String"><![CDATA[001]]></Field>
 	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
 </Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpScenReport">
-		<Field name="AgentName" type="java.lang.String"><![CDATA[Internal]]></Field>
-	<Field name="ContextCode" type="java.lang.String"><![CDATA[GLOBAL]]></Field>
-	<Field name="ErrorMessage" type="java.lang.String"><![CDATA[ODI-1217: Session PACK_1_TEST (1) fails with return code 1298.
-ODI-1226: Step Execution of the Scenario MAP_DEV_TEST_EXPORT1 version 001 fails after 1 attempt(s).
-ODI-1241: Oracle Data Integrator tool execution fails.
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.getExceptionOnStepTaskFailure(AbstractSessionTask.java:1509)
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.treatStepTaskError(AbstractSessionTask.java:1394)
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.postProcess(AbstractSessionTask.java:1365)
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.execute(AbstractSessionTask.java:913)
-	at oracle.odi.runtime.agent.execution.SessionExecutor$SerialTrain.runTasks(SessionExecutor.java:2225)
-	at oracle.odi.runtime.agent.execution.SessionExecutor.executeSession(SessionExecutor.java:610)
-	at oracle.odi.runtime.agent.processor.TaskExecutorAgentRequestProcessor$1.doAction(TaskExecutorAgentRequestProcessor.java:718)
-	at oracle.odi.runtime.agent.processor.TaskExecutorAgentRequestProcessor$1.doAction(TaskExecutorAgentRequestProcessor.java:611)
-	at oracle.odi.core.persistence.dwgobject.DwgObjectTemplate.execute(DwgObjectTemplate.java:203)
-	at oracle.odi.runtime.agent.processor.TaskExecutorAgentRequestProcessor.doProcessStartAgentTask(TaskExecutorAgentRequestProcessor.java:800)
-	at oracle.odi.runtime.agent.processor.impl.StartScenRequestProcessor.access$2700(StartScenRequestProcessor.java:85)
-	at oracle.odi.runtime.agent.processor.impl.StartScenRequestProcessor$StartScenTask.doExecute(StartScenRequestProcessor.java:917)
-	at oracle.odi.runtime.agent.processor.task.AgentTask.execute(AgentTask.java:180)
-	at oracle.odi.runtime.agent.support.DefaultAgentTaskExecutor$2.run(DefaultAgentTaskExecutor.java:108)
-	at java.lang.Thread.run(Thread.java:748)
-]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[8787891d-fc81-44e0-9c69-4c103fe433ec]]></Field>
-	<Field name="ITxtSessMess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="NbDel" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbErr" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbIns" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbMrg" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="NbRow" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbUpd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
-	<Field name="ScenRunNo" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
-	<Field name="SessBeg" type="java.sql.Timestamp"><![CDATA[2025-10-14 23:38:20.0]]></Field>
-	<Field name="SessDur" type="com.sunopsis.sql.DbFloat"><![CDATA[3]]></Field>
-	<Field name="SessEnd" type="java.sql.Timestamp"><![CDATA[2025-10-14 23:38:23.0]]></Field>
-	<Field name="SessRc" type="java.lang.String"><![CDATA[1298]]></Field>
-	<Field name="SessStatus" type="java.lang.String"><![CDATA[E]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpScenReport">
-		<Field name="AgentName" type="java.lang.String"><![CDATA[Internal]]></Field>
-	<Field name="ContextCode" type="java.lang.String"><![CDATA[GLOBAL]]></Field>
-	<Field name="ErrorMessage" type="java.lang.String"><![CDATA[ODI-1217: Session PACK_1_TEST (3) fails with return code 1298.
-ODI-1226: Step Execution of the Scenario MAP_DEV_TEST_EXPORT1 version 001 fails after 1 attempt(s).
-ODI-1241: Oracle Data Integrator tool execution fails.
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.getExceptionOnStepTaskFailure(AbstractSessionTask.java:1509)
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.treatStepTaskError(AbstractSessionTask.java:1394)
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.postProcess(AbstractSessionTask.java:1365)
-	at oracle.odi.runtime.agent.execution.AbstractSessionTask.execute(AbstractSessionTask.java:913)
-	at oracle.odi.runtime.agent.execution.SessionExecutor$SerialTrain.runTasks(SessionExecutor.java:2225)
-	at oracle.odi.runtime.agent.execution.SessionExecutor.executeSession(SessionExecutor.java:610)
-	at oracle.odi.runtime.agent.processor.TaskExecutorAgentRequestProcessor$1.doAction(TaskExecutorAgentRequestProcessor.java:718)
-	at oracle.odi.runtime.agent.processor.TaskExecutorAgentRequestProcessor$1.doAction(TaskExecutorAgentRequestProcessor.java:611)
-	at oracle.odi.core.persistence.dwgobject.DwgObjectTemplate.execute(DwgObjectTemplate.java:203)
-	at oracle.odi.runtime.agent.processor.TaskExecutorAgentRequestProcessor.doProcessStartAgentTask(TaskExecutorAgentRequestProcessor.java:800)
-	at oracle.odi.runtime.agent.processor.impl.StartScenRequestProcessor.access$2700(StartScenRequestProcessor.java:85)
-	at oracle.odi.runtime.agent.processor.impl.StartScenRequestProcessor$StartScenTask.doExecute(StartScenRequestProcessor.java:917)
-	at oracle.odi.runtime.agent.processor.task.AgentTask.execute(AgentTask.java:180)
-	at oracle.odi.runtime.agent.support.DefaultAgentTaskExecutor$2.run(DefaultAgentTaskExecutor.java:108)
-	at java.lang.Thread.run(Thread.java:748)
-]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[b7b2abe1-40cd-405a-974d-10c4957e0e9b]]></Field>
-	<Field name="ITxtSessMess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="NbDel" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbErr" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbIns" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbMrg" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="NbRow" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="NbUpd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
-	<Field name="ScenRunNo" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
-	<Field name="SessBeg" type="java.sql.Timestamp"><![CDATA[2025-10-14 23:38:57.0]]></Field>
-	<Field name="SessDur" type="com.sunopsis.sql.DbFloat"><![CDATA[0]]></Field>
-	<Field name="SessEnd" type="java.sql.Timestamp"><![CDATA[2025-10-14 23:38:57.0]]></Field>
-	<Field name="SessRc" type="java.lang.String"><![CDATA[1298]]></Field>
-	<Field name="SessStatus" type="java.lang.String"><![CDATA[E]]></Field>
+<Object class="com.sunopsis.dwg.dbobj.SnpVarScen">
+		<Field name="DefDate" type="java.sql.Timestamp">null</Field>
+	<Field name="DefN" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="DefV" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[19dd4d01-76d1-4362-9ea7-355248f46459]]></Field>
+	<Field name="IndStore" type="java.lang.String"><![CDATA[L]]></Field>
+	<Field name="ITxtDefT" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[22]]></Field>
+	<Field name="VarDatatype" type="java.lang.String"><![CDATA[A]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[DWH.VAR_TEST]]></Field>
+	<Field name="VarParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="VarParamOrder" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
 		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -115,7 +54,7 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="ContextCode" type="java.lang.String">null</Field>
 	<Field name="FContextCode" type="java.lang.String">null</Field>
 	<Field name="GenInfo" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[ef155be5-e7a2-43b7-9712-9b23b2f5d176]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7b686937-3d89-47f8-8989-8350680395d6]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
 	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
@@ -133,14 +72,14 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="ResName" type="java.lang.String">null</Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
-	<Field name="StepName" type="java.lang.String"><![CDATA[AAC]]></Field>
-	<Field name="StepType" type="java.lang.String"><![CDATA[SE]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[22]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[VAR_TEST]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[VS]]></Field>
 	<Field name="TableName" type="java.lang.String">null</Field>
 	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="VarLongValue" type="java.lang.String">null</Field>
-	<Field name="VarName" type="java.lang.String">null</Field>
-	<Field name="VarOp" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[DWH.VAR_TEST]]></Field>
+	<Field name="VarOp" type="java.lang.String"><![CDATA[=]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
 		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -163,9 +102,9 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
 	<Field name="DefLschemaName" type="java.lang.String">null</Field>
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
-	<Field name="DefTxt" type="java.lang.String"><![CDATA[OdiStartScen -SCEN_NAME=MAP_DEV_TEST_EXPORT1 -SCEN_VERSION=001]]></Field>
-	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[4e1acbcd-6c12-4263-b462-dab0a6c03cc3]]></Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[28b2c2ad-8618-4e05-bee7-88c5aa53beed]]></Field>
 	<Field name="IndErr" type="java.lang.String">null</Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String">null</Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -175,12 +114,12 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[22]]></Field>
 	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
-	<Field name="TaskName1" type="java.lang.String"><![CDATA[Oracle Data Integrator Command]]></Field>
-	<Field name="TaskName2" type="java.lang.String"><![CDATA[Oracle Data Integrator Command]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Variable]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[VAR_TEST]]></Field>
 	<Field name="TaskName3" type="java.lang.String">null</Field>
-	<Field name="TaskType" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[V]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
 		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -188,7 +127,7 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="ContextCode" type="java.lang.String">null</Field>
 	<Field name="FContextCode" type="java.lang.String">null</Field>
 	<Field name="GenInfo" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[5a7eec2c-118b-45cc-8e98-7105c7800c66]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d336bb50-42c1-4ca5-9e2f-bb0152e91e9a]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
 	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
@@ -206,8 +145,8 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ResName" type="java.lang.String">null</Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
-	<Field name="StepName" type="java.lang.String"><![CDATA[BAC]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[22]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[Execution of the Scenario MAP_TN_01 version 001]]></Field>
 	<Field name="StepType" type="java.lang.String"><![CDATA[SE]]></Field>
 	<Field name="TableName" type="java.lang.String">null</Field>
 	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -236,9 +175,9 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
 	<Field name="DefLschemaName" type="java.lang.String">null</Field>
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
-	<Field name="DefTxt" type="java.lang.String"><![CDATA[OdiStartScen -SCEN_NAME=MAP_DEV_TEST_EXPORT1 -SCEN_VERSION=001]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[OdiStartScen -SCEN_NAME=MAP_TN_01 -SCEN_VERSION=001]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[374a5b2f-2050-4605-8321-cef5baecc0ff]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[dbda7795-0a55-493f-a7e3-b23288a59ffd]]></Field>
 	<Field name="IndErr" type="java.lang.String">null</Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String">null</Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -248,7 +187,7 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[22]]></Field>
 	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
 	<Field name="TaskName1" type="java.lang.String"><![CDATA[Oracle Data Integrator Command]]></Field>
 	<Field name="TaskName2" type="java.lang.String"><![CDATA[Oracle Data Integrator Command]]></Field>
@@ -256,29 +195,29 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="TaskType" type="java.lang.String"><![CDATA[S]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_PACKAGE.4]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[de2768e2-f0a0-498a-8e4f-a48182df3faf]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[DWH.g12.PACK_1_TEST]]></Field>
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_PACKAGE.31]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[73a800cb-e300-408f-ac67-c92d017c9749]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[DWH.SD.PACK_SK_001]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[3.3.11]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[3.2.11]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCEN.6]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[4e7df281-58a5-44f7-b54a-d1baae5740af]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[DWH.g12.PACK_1_TEST.PACK_1_TEST Version 001]]></Field>
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCEN.22]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[6d7833e0-873b-4302-a839-d820889b1771]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[DWH.SD.PACK_SK_001.PACK_SK_001 Version 001]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE.SNP_SCEN]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[3.3.11.23]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[3.2.11.23]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.6.0]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[ef155be5-e7a2-43b7-9712-9b23b2f5d176]]></Field>
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.22.0]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7b686937-3d89-47f8-8989-8350680395d6]]></Field>
  <Field name="RefObjFQName" type="java.lang.String">null</Field>
  <Field name="RefObjFQType" type="java.lang.String">null</Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.6.1]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[5a7eec2c-118b-45cc-8e98-7105c7800c66]]></Field>
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.22.1]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[d336bb50-42c1-4ca5-9e2f-bb0152e91e9a]]></Field>
  <Field name="RefObjFQName" type="java.lang.String">null</Field>
  <Field name="RefObjFQType" type="java.lang.String">null</Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
@@ -294,7 +233,7 @@ ODI-1241: Oracle Data Integrator tool execution fails.
 	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>

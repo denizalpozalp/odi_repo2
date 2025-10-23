@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-9"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="rslPVZf5cXKgpgsjS+9pIw==" exportKeySalt="79604408-1d59-4e58-ae39-499744057ef7" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="ErO4Vbsa0pKGEk0ZXJnKYQ==" exportKeySalt="3256d12b-dcd9-48c7-8264-570844b0d800" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTable">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FileDecSep" type="java.lang.String">null</Field>
